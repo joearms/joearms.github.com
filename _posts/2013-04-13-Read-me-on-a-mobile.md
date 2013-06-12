@@ -114,7 +114,7 @@ github. So far I've had help from:
 * Catlion (Unknown). 
 
 10 people from as many different countries. While politicians and
-power-mongers f\*\*k world up, we, programmers and engineers
+power-mongers f\*\*k the world up, we, programmers and engineers
 get on with the job, collaborating and helping each other, which gives
 me some hope for the future.
 
