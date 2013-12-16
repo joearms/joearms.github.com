@@ -48,7 +48,7 @@ factorial of an integer. This is mind-boggling simple:
 {% highlight erlang %}
 factorial_server() ->
     receive
-       {From ! N} ->
+       {From, N} ->
            From ! factorial(N),
            factorial_server()
     end.
