@@ -23,8 +23,8 @@ The Universal Server
 Normally servers do something. An HTTP server responds to HTTP
 requests and FTP server responds to FTP request and so on. But what
 about a __Universal Server__? surely we can generalize the idea of a
-server and make a universal server that which we can later tell to
-become a specific sever.
+server and make a universal server which we can later tell to
+become a specific server.
 
 Here's my universal server:
 
@@ -36,7 +36,7 @@ universal_server() ->
     end.
 {% endhighlight %}
 
-That was pretty easy. Once I have created a universal serve it just sits and
+That was pretty easy. Once I have created a universal server it just sits and
 waits for a **{become, F}** message and then it becomes an **F** server.
 
 The Factorial Server
@@ -95,8 +95,8 @@ Aside
 A few years ago when I was at SICS I had access to [Planet
 Lab](http://www.planet-lab.org/).  Planet Lab is a research network of
 9000 computers. Joining Planet Lab is easy, all you have to do is buy
-a standard PC, connect it to the network and donate it's use to the
-Planet Lab organization. Having donated you machine to the network, in
+a standard PC, connect it to the network and donate its use to the
+Planet Lab organization. Having donated your machine to the network, in
 return you can use all the other machines in planet lab.
 
 Planet lab is a real-world test-bed for distributed applications, it
@@ -117,8 +117,8 @@ project that financed your research expects to read about.
 
 Well I had my gossip network setup on planet lab and I could tell it
 to become anything, so I told it to become a content distribution
-networks and used a gossip algorithm to make copies of the same file
-on all machine on the network and wrote a paper about it and everybody
+network and used a gossip algorithm to make copies of the same file
+on all machines on the network and wrote a paper about it and everybody
 was happy.
 
 
