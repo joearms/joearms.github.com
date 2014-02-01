@@ -38,15 +38,21 @@ tables, and Python calls them dictionaries.  We call them maps.
 
 We can create a new map by writing:
 
+```Erlang
     A = #{key1 => Val1, key2 => Val2, ...}
+```
 
 And we can pattern match a map by writing :
 
+```Erlang
     #{key1 := Pattern1, key2 := Pattern2, ...} = VarContainingAMap
+```
 
 Updating a map is done as follows:
 
+```Erlang
      NewX = X#{ key1 => Val1, ... KeyN := ValN, ...}
+```
 
 The update operators are either "=>" or ":=" but what they do is
 subtly different.
@@ -71,10 +77,10 @@ were was only one operator ":" that both updated an old element in the
 map or created a new element in the map.  In this case we might write:
 
 
-<pre>
+```Erlang
 birthday(#{age : N} = Person) ->
     Person#{arg : N+1}
-</pre>
+```
 
 So calling birthday(#{person:bill, age:12}) would 
 return #{person:bill, age:12, arg:13}
@@ -96,9 +102,9 @@ update an element that does not exist in the map.
 Updating existing keys in the map has another unexpected consequence.
 If the compiler sees a line of code like this:
     
-<pre>
+```Erlang
     X1 = X#{key1 := Val1, key2 := Val2, ...}
-</pre>
+```
 
 When all the update operators are ":=" then it know that the new
 object X1 has the same keys as X. This means we can store the a
@@ -122,16 +128,16 @@ over this for years.
 
 Here's an example:
 
-<pre>
+```Erlang
 > Z = #{ {age,fred} => 12, {age, bill} => 97, 
          {color, red} => {rgb,255,0,0}}.
-</pre>
+```
 
 Then I can pattern match out any of the arguments like this:
 
-<pre>
+```Erlang
 >    #{ {color,red} := X1} = Z.
-</pre>
+```
 
 
 which binds X1 to {rgb,255,0,0}
@@ -151,9 +157,9 @@ Why is this?
 You might think that the natural way to define factorial inside a fun
 would be to say:
 
-<pre>
+```Erlang
    Fac = fun(0) -> 1; (N) -> N*Fac(N-1) end
-</pre>
+```
 
 The problem here is that inside the fun (ie between the <b>fun</b> and
 <b>end</b> symbols) the variable Fac has not yet been defined, it's
@@ -164,39 +170,39 @@ There is a way round this, we add an additional argument to the
 internal function that contains the name of the function to be called
 so we write the inner part of the factorial function as
 
-<pre>
+```Erlang
      fun(F, 0) -> 1;
         (F, N) -> N*F(F, N-1)
      end.
-</pre>
+```
 
 and pass the function to be called as an additonal argument to the function.
 Now everything is defined. If we say:
 
-<pre>
+```Erlang
     G = fun(F, 0) -> 1;
         (F, N) -> N*F(F, N-1)
      end.
-</pre>
+```
 
 Then G(G,X) will computer factorial X.
 
 But we want to hide this horrible function G, so we write:
 
-<pre>
+```Erlang
     Fac = fun(X) ->
             G = fun(_, 0) -> 1;
                    (Fac, N) -> N*Fac(Fac, N-1)
                 end,
             G(G, X)
           end.
-</pre>
+```
 
  After this feat of intellectual masturbation is over you have defined
 the factorial function. We can even type this monstrously horrible
 expression into the shell and test it:
 
-<pre>
+```Erlang
 1> F = fun(X) ->
 1>       G = fun(_, 0) -> 1;
 1>              (Fac, N) -> N*Fac(Fac, N-1)
@@ -206,7 +212,7 @@ expression into the shell and test it:
 #Fun<erl_eval.6.71889879>
 2> F(10).
 3628800
-</pre>
+```
 
 And goodness gracious - it works.
 
@@ -223,19 +229,16 @@ So now we have a better way .. and there should be a drum role here.
 
 Here's the new way (in the shell).
 
-<pre>
+```Erlang
    1> F = fun Fact(0) -> 1; 
               Fact(N) -> N * Fact(N - 1) 
           end.  §
    #Fun<erl_eval.30.71889879>
    2> F(10).
    3628800
-</pre>
+```
 
 Which is a zillion times better than the old way.
-
-
-
 
 
 
