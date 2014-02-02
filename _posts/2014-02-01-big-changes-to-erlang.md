@@ -33,7 +33,7 @@ Erlang version R17.
 Records are dead - long live maps !
 
 Maps are associative collections of key-value pairs.  In Perl and Ruby
-they are called hashes, in C++ and Java the are called maps in Lua
+they are called hashes, in C++ and Java they are called maps in Lua
 tables, and Python calls them dictionaries.  We call them maps.
 
 We can create a new map by writing:
