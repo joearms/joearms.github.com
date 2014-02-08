@@ -138,7 +138,7 @@ that my boos said and accidentally implemented a server from scratch
 in Erlang during my lunch break.
 
 To be honest it wasn't a full LDAP sever, but I didn't want a full LDAP server
-I only wanted a could of commands to work, and that was pretty easy to fix.
+I only wanted a couple of commands to work, and that was pretty easy to fix.
 
 Now I find no particular joy in implementing archaic and perverse protocols
 but often the quickest way to progress is to re-implement then from scratch.
