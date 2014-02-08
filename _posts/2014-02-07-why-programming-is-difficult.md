@@ -50,7 +50,7 @@ Several typical scenarios suggest themselves:
 
 Often we write program for the output only. In this case the input and
 program itself will not have to be maintained in the future and so
-doesn't have to be particularly beautiful or well described.
+don't have to be particularly beautiful or well described.
 
 My Erlang book is an example of this. Once the book is published,
 maintaining the inputs and the program that produced the book is not
@@ -63,7 +63,7 @@ even if the inputs to the program are not well documented.
 
 # Programs that must be maintained
 
-For program that have to be maintained the oppose to the last scenario
+For program that have to be maintained the opposite to the last scenario
 is true. The inputs to the program and the program itself must be
 beautiful and well-documented.
 
@@ -75,7 +75,7 @@ managers moved him on to the next project.
 
 There was no time, and no understanding for the point of view that
 not-only should the web site look ok, but the code that produced it
-should be cleaned up documented become the next project was
+should be cleaned up and documented before the next project was
 started. And this was for projects that would have to be maintained in
 the future.
 
@@ -131,17 +131,17 @@ made.
 
 This problem is, by the way, the things that takes most of my time,
 60-70% of my time at a guess. I once spent over a week trying to get
-a broken LDAP server to work - my boss had forbidden my to implement my own
+a broken LDAP server to work - my boss had forbidden me to implement my own
 LDAP server - bit after a week of struggling with a broken LDAP sever
-written in C and badly documented I had a lapse of memory and forget 
-that my boos said and accidentally implemented a server from scratch
+written in C and badly documented I had a lapse of memory and forget
+what my boss said and accidentally implemented a server from scratch
 in Erlang during my lunch break.
 
 To be honest it wasn't a full LDAP sever, but I didn't want a full LDAP server
 I only wanted a could of commands to work, and that was pretty easy to fix.
 
 Now I find no particular joy in implementing archaic and perverse protocols
-but often the quickest way to progress is to re-implement then from scratch.
+but often the quickest way to progress is to re-implement them from scratch.
 
 # Solving problems but not learning
 
@@ -188,9 +188,9 @@ Fortunately we have place to go to where we cannot be
 distracted. Sleep. A lot of programming problems get solved while you
 sleep.
 
-There are two methods. First you load your load your brain with
-problems, then you sleep then the next day you wake up and some of
-the problems are solved. Easy.
+There are two methods. First you load your brain with problems, then
+you sleep then the next day you wake up and some of the problems are
+solved. Easy.
 
 Method two - you post your problem on the internet, or tweet about it
 before going to bed and the next day somebody has mailed you the solution.
@@ -211,7 +211,7 @@ to break.
 
 I don't believe in malicious Gods, nor that the laws of physics are
 different in the left-hand corner of the sofa in my front room where
-I'm typing this, though there is circumstantion evidence to suggest the
+I'm typing this, though there is circumstantial evidence to suggest the
 contrary.
 
 I could see no reason why my spelling checker should break - Everything
