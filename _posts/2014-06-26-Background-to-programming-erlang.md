@@ -99,7 +99,7 @@ advanced users will be difficult for beginners to understand, or
 worse, impossible to understand.
 
 When I started work on a second edition - I thought - ``All I'll have to
-do is piff up the examples and make sure everything works properly.'' I
+do is spiff up the examples and make sure everything works properly.'' I
 also thought I'd drop some rather boring appendices, drop the odd
 chapter and add a new chapter on the type system - so I thought.
 
@@ -133,7 +133,7 @@ Surprise number one:
 Some of the true beginners didn't understand what I'd written - some
 of the ideas were just ``too strange''. I was amazed - goodness gracious
 me, when you've lived breathed dreamed and slept with Erlang for
-twenty five years and you know Erlangs aunty and grandmother you take
+twenty five years and you know Erlang’s aunty and grandmother you take
 things for granted.
 
 And so I threw away the text that they didn't understand and
@@ -145,7 +145,7 @@ they still don't understand. And so I threw the text away (again)
 re-wrote it and sent them the third draft.
 
 Bingo - they understood. Happy days are here again. Sometimes new
-ideas are just ``too strange'' to grock. But by now I was getting a
+ideas are just ``too strange'' to grok. But by now I was getting a
 feeling for how much explanation I had to add, it was about 30% more
 that I thought - but what the heck, if you've bought a book you don't
 want the people who've bought the damn thing to not read it because
