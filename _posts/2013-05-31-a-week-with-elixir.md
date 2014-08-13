@@ -237,8 +237,8 @@ you couldn't type function in the shell.
 
 If a module contains this:
 
-    fac(0) when N > 0 -> 1;
-    fac(N)            -> N* fac(N-1).
+    fac(0)  -> 1;
+    fac(N)  -> N * fac(N-1).
 
 You can't just cut and paste this into the shell and get the same result.
 Dave asked why and said that this was stupid.
