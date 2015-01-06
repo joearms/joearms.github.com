@@ -45,7 +45,7 @@ it's been tested with sonic Pi version 2.0 and seems to work.
 # On the Sonic Pi Interface
 
 I'd now like to take a moment and heap praises upon the design of
-Sonic Pi. It literally look me about ten minutes to interface Erlang to Sonic Pi.
+Sonic Pi. It literally took me about ten minutes to interface Erlang to Sonic Pi.
 
 _Actually this is not quite true_ It took me ten minutes after Sam had explained how the
 interface worked - he had not documented the interface, assuming that nobody would
