@@ -100,7 +100,7 @@ Type in the text in Emacs, run the result through the
 compiler/formatter/whatever.  Stare at the results. Wash and repeat,
 tumble dry, iron the crumply bits and you're done.
 
-OK now thanks the Jekyll I can type my text in emacs, run the text
+Now thanks to Jekyll I can type my text in Emacs, run the text
 through a spell checker (and If I have time through a speech
 synthesizer, this finds many extra errors, since I tend to read what I
 think I've written and not what I've actually written) type Make and
