@@ -166,7 +166,7 @@ This will generate an executable called `experiment<K>`
 
 # <a name="experiment0"></a> Experiment 0 - How not to make a window
 
-If we start Xcode, do `File->New->Project` and select `Coco Application`
+If we start Xcode, do `File->New->Project` and select `Cocoa Application`
 then set the language to `Swift` then Xcode will create a file called
 `ApplicationDelegate.swift` with the following content:
 
