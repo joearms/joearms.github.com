@@ -147,7 +147,7 @@ Xcode version 7.2 and Swift version 2.1.
 Each program is in a single file
 called `experiment1.swift`, `experiment2.swift` and so on.
 
-The source can be found [here](https://github.com/joearms/joearms.github.com/_posts/swift).
+The source can be found [here](https://github.com/joearms/joearms.github.com/blob/master/_posts/2016-01-04-fun-with-swift.md).
 
 
 # Running and compiling the examples
