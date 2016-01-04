@@ -465,7 +465,7 @@ Now let's put it all together:
 <img src='/images/combined1.png'/>
 
 The code is rather long - but I was able to pull out most of
-the mess into simple reusable functionbs.
+the mess into simple reusable functions.
 
 > The code to create the window and add controls was easy
 and Xcode was not used.
