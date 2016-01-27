@@ -124,7 +124,7 @@ hit and stroke.
 Finally [Pure Data](https://puredata.info/). PD programs have no
 textual representation, there is only a graphic interface to a data-flow language.	
 
-The program is in https://github.com/joearms/music_experiments/blob/master/pd_osc.pd:
+The program is in [pd_osc.pd](https://github.com/joearms/music_experiments/blob/master/pd_osc.pd):
 
 <img src="/images/pd_osc.png">
 
