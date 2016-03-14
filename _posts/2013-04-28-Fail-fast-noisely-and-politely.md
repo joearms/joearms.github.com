@@ -8,7 +8,7 @@ day: 23
 published: true
 ---
 
-In [Programming Erlang 2'nd edition](http://pragprog.com/book/jaerlang2/programming-erlang)
+In [Programming Erlang 2'nd edition](https://pragprog.com/book/jaerlang2/programming-erlang)
 I described a new design principle.
 
 When applications fail, the programmer should provide **two** error

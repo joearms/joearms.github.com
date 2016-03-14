@@ -8,7 +8,7 @@ just a placeholder. I've started to add some information here.
 
 Books
 =====
-* [Programming Erlang 2'nd edition](http://pragprog.com/book/jaerlang2/programming-erlang)
+* [Programming Erlang 2'nd edition](https://pragprog.com/book/jaerlang2/programming-erlang)
 * [Erlang Programming](http://shop.oreilly.com/product/9780596518189.do)
 * [Learn you some Erlang for great good](http://learnyousomeerlang.com/)
 * [Introducing Erlang](http://shop.oreilly.com/product/0636920025818.do)
