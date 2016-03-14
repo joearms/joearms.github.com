@@ -73,7 +73,7 @@ outperform Ruby on Rails? - precisely because we have millions of tiny
 webservers - and when we have lots of small things it's easy to spread
 them over lots of processors and make the system fault-tolerant and scalable.
 
-Packing Erlang or Elixir processes onto cores is easy becuase they are
+Packing Erlang or Elixir processes onto cores is easy because they are
 small and are like packing physical objects. If we want to pack sand
 in barrels it's easy. The grains of sand are so small that it's easy
 to completely fill the barrels. Backing huge boulders is difficult,
@@ -84,7 +84,7 @@ they don't pack well and much space is wasted.
 > Because we have one web server per user  we can easily make the
 system fault tolerant or scalable
 
-To make a fault tolerent system we use two or more processes per user;
+To make a fault tolerant system we use two or more processes per user;
 One is the master process, the others are replicas on different
 machines. They must be on different machines since the entire machine
 where the master runs might crash. We can make it scalable  by just
