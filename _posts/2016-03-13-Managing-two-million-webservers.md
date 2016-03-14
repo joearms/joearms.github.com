@@ -20,7 +20,7 @@ by Chris McCord and Evan Czaplicki at the [2016 Erlang Factory in San
 Francisco](http://www.erlang-factory.com/sfbay2016).
 
 Imagine an Erlang or Elixir HTTP server managing a couple of million
-user sessions.  Time and again I've heard this said:
+user sessions. Time and again I've heard this said:
 
 + We have a (Erlang or Elixir) web server managing 2 million user sessions.
 
@@ -81,7 +81,7 @@ they don't pack well and much space is wasted.
 
 # Adding fault-tolerance and scalability
 
-> Because we have one web server per user  we can easily make the
+> Because we have one web server per user we can easily make the
 system fault tolerant or scalable
 
 To make a fault tolerant system we use two or more processes per user;
@@ -90,18 +90,3 @@ machines. They must be on different machines since the entire machine
 where the master runs might crash. We can make it scalable  by just
 buying more machines and spreading the processes out over the
 machines.
- 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
