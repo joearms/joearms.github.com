@@ -48,7 +48,7 @@ connections, and two million web servers handling one connection each.
 If there is a software error and the server software crashes we loose
 either two million connections or one depending upon the model.
 
-In Erlang if the web server software itself is incorrect we'll loose a
+In Erlang if the web server software itself is incorrect we'll lose a
 single connection, which is OK. Since the software is incorrect and
 crashes we don't know what to do so crashing is a good
 alternative. What is important is that one session crashing does not
