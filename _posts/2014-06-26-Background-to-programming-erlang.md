@@ -163,7 +163,7 @@ light and are wish to renounce their evil ways and convert to the joys
 of Erlang programming, but what about the advanced users?
 
 Screw the advanced users - they know it all anyway - and they don't buy
-the book because they know it all anyway. So I killed by babies, and
+the book because they know it all anyway. So I killed my babies, and
 threw out a lot of advanced material that nobody ever reads - My goal
 is to put the omitted advanced material on a web site.
 
