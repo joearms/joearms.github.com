@@ -12,7 +12,7 @@ in any detail.
 
 This all changed when I discovered the announcement that Dave Thomas
 was publishing [Programming
-Elixir](http://pragprog.com/book/elixir/programming-elixir).  Dave
+Elixir](https://pragprog.com/book/elixir/programming-elixir).  Dave
 Thomas edited my Erlang book and did great work in introducing Ruby,
 so when Dave gets excited about something then this is a sure sign
 that something interesting is in the wind.
