@@ -1,5 +1,5 @@
 joearms.github.com
 ==================
 
-<a href="http://joearms.github.com">http://joearms.github.com</a>
+<a href="https://joearms.github.com">https://joearms.github.com</a>
 

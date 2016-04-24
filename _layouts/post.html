@@ -25,11 +25,11 @@ layout: default_3
   
   <!-- the tweet button -->
   <p>
-    <a href="https://twitter.com/share"  class="twitter-share-button" 
-       data-url="http://joearms.github.com{{page.url}}">Tweet</a>
+    <a href="https://twitter.com/share" class="twitter-share-button" 
+       data-url="https://joearms.github.com{{page.url}}">Tweet</a>
   </p>
   
-  <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+  <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
   <!-- end of tweet button -->
 
   <p>Comments:</p>
@@ -43,7 +43,7 @@ layout: default_3
       var disqus_url = 'http://joearms.github.com{{ page.url }}';
       (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
     </script>
