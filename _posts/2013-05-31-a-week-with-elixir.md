@@ -71,7 +71,7 @@ good shit.  The funny thing is that Erlang and Elixir are the same
 thing under the surface.  They ``feel'' the same to me. In fact this
 is literally true, they both compile to instructions for the
 EVM (Erlang Virtual Machine) - actually nobody call this the EVM They
-just say the "Beam" VM but I thing we should start calling this the
+just say the "Beam" VM but I think we should start calling this the
 EVM to distinguish it for the JVM.
 
 Why do Erlang and Elixir have the same ``semantics''? The reason has
