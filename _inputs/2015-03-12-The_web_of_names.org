@@ -196,7 +196,7 @@ machine address and using secured content.
 
 [[http://named-data.net/project/][Named Data Networking]] wants to secure content.
 
-[[http://ipfs.io][IFPS]] wants to make the entire web into a secure distributed file
+[[http://ipfs.io][IPFS]] wants to make the entire web into a secure distributed file
 system.
 
 It seems like many people have similar ideas - which is
